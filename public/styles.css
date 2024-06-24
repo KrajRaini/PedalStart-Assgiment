@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#task-form input,
+#task-form button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
